@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <refs>
+    <image name="KERNEL.PLATFORM.2.0.r1" project="kernelplatform/manifest" server="git://git-android.quicinc.com" tag="AU_LINUX_KERNEL.PLATFORM.2.0.R1.00.00.00.004.091" targets="bengal"/>
+  </refs>
   <project name="device/qcom/bengal_515" revision="9fa1843cbe91a9726d1622bb7ccc7079ceee41fb" upstream="refs/heads/qcom-devices.lnx.13.0.r5-rel"/>
   <project name="device/qcom/common" revision="8f488e9846420e7c33de31ffc94e2532fe0bbcd0" upstream="refs/heads/qcom-devices.lnx.13.0.r5-rel">
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
