@@ -1,7 +1,7 @@
 # Sync
 
 ```
-repo init -u https://github.com/ShelbyHell/bengal_manifest -b bengal_515 -g default,-mips,-darwin -notdefault
+repo init -u https://github.com/ShelbyHell/bengal_manifest -b bengal_515 -g default,-mips,-darwin,-notdefault
 ```
 
 ```
