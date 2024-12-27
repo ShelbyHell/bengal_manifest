@@ -19,6 +19,7 @@
   <default remote="clo-la"/>
 
   <include name="system.xml"/>
+  <include name="kernel.xml"/>
   <include name="vendor.xml"/>
 
   <!-- AOSPA -->
@@ -48,8 +49,6 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
-  <include name="aosp.xml"/>
-  <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
